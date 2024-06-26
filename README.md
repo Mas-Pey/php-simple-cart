@@ -33,7 +33,7 @@
 
 ## Documentation
 
-### Screenshots
+Below are several screenshots from the program:
 
 #### Category Management
 ![Category Management](docs/docs1.png)
