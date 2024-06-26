@@ -51,7 +51,7 @@
                     <td><?= $id[$i] ?></td>
                     <td><?= $name[$i] ?></td>
                     <td><?= $qty[$i] ?></td>
-                    <td><?= $price[$i] ?></td>
+                    <td><?= $price[$i] ?>$</td>
                     <th><?= $qty[$i]*$price[$i] ?></td>
                     <th><a href="delete.php?id=<?= $i ?>"><button>DELETE</button></a></td>
                 </tr>

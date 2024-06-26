@@ -23,7 +23,7 @@
                 <tr>
                     <td><?= $data['ProductID']; ?> </td>
                     <td><a href="detail_products.php?id=<?= $data['ProductID']; ?>"><?= $data['ProductName']; ?></a></td>
-                    <td><?= $data['UnitPrice']; ?> </td>
+                    <td><?= $data['UnitPrice']; ?>$ </td>
                 </tr>
             <?php } ?>
         </table>

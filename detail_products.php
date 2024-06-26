@@ -36,7 +36,7 @@
                         <td><?= $data['SupplierID']; ?> </td>
                         <td><?= $data['CategoryID']; ?> </td>
                         <td><?= $data['QuantityPerUnit']; ?> </td>
-                        <td><?= $data['UnitPrice']; ?> </td>
+                        <td><?= $data['UnitPrice']; ?>$</td>
                         <input type="hidden" value="<?= $data['UnitPrice']; ?>" name="price">
                         <td><?= $data['UnitsInStock']; ?> </td>
                         <td><?= $data['UnitsOnOrder']; ?> </td>
@@ -46,7 +46,7 @@
                 <?php } ?>
             </table><br>
             <label for="qty">Input Quantity : </label>
-            <input type="number" placeholder="Input Qty" name="qty" id="qty" min="1"><br><br>
+            <input type="number" placeholder="Input Qty" name="qty" id="qty" min="1" required><br><br>
             <input type="submit" value="Add to Chart">
         </form>
     </body>
