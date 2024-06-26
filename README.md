@@ -1,5 +1,6 @@
 # php-simple-cart
 
+<div align="justify">
 ## About the Project
 
 **php-simple-cart** is a PHP-based web application designed to facilitate online shopping by displaying data lists for categories, products, product details, and shopping cart interactions. It is built using PHP and HTML.
@@ -25,23 +26,24 @@
 ## Access Requirements
 
 ### Web Server Setup
-1. **Apache Web Server**: Ensure Apache is installed and running on your local machine or server.
+- **Apache Web Server**: Ensure Apache is installed and running on your local machine or server.
    
 ### Database Setup
-1. **SQL Database**: Set up a MySQL database to get data (import nwind.sql).
+- **SQL Database**: Set up a MySQL database to get data (import nwind.sql).
 
 ## Documentation
 
 ### Screenshots
 
 #### Category Management
-![Category Management](screenshots/category.png)
+![Category Management](docs/docs1.png)
 
 #### Product Listing
-![Product Listing](screenshots/products.png)
+![Product Listing](docs/docs2.png)
 
 #### Product Details
-![Product Details](screenshots/product_detail.png)
+![Product Details](docs/docs3.png)
 
 #### Shopping Cart
-![Shopping Cart](screenshots/cart.png)
+![Shopping Cart](docs/docs4.png)
+</div>
