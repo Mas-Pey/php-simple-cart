@@ -52,13 +52,13 @@
                     <td><?= $name[$i] ?></td>
                     <td><?= $qty[$i] ?></td>
                     <td><?= $price[$i] ?>$</td>
-                    <th><?= $qty[$i]*$price[$i] ?></td>
+                    <th><?= $qty[$i]*$price[$i] ?>$</td>
                     <th><a href="delete.php?id=<?= $i ?>"><button>DELETE</button></a></td>
                 </tr>
             <?php } ?>
             <tr>
                 <th colspan="5">TOTAL PRICE</th>
-                <th><?= $total ?></th>
+                <th><?= $total ?>$</th>
                 <th><a href="delete.php?id=all"><button>DELETE ALL</button></a></td>
             </tr>
         </table>
